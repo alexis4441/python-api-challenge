@@ -24,7 +24,9 @@ To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve 
 To fulfill the second requirement, compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). You may find it helpful to define a function in order to create the linear regression plots.
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image:
+
 ![image](https://github.com/alexis4441/python-api-challenge/assets/156952462/029ac6c5-03dd-4a5e-ae79-0b5dfe8d4afa)
+
 You should create the following plots:
 - Northern Hemisphere: Temperature vs. Latitude
 - Southern Hemisphere: Temperature vs. Latitude
@@ -45,7 +47,9 @@ Your main tasks will be to use the Geoapify API and the geoViews Python library 
 
 To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
 1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+
 ![image](https://github.com/alexis4441/python-api-challenge/assets/156952462/2d10350d-6ded-4d8b-a200-4ba6dabe851b)
+
 2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
  - A max temperature lower than 27 degrees but higher than 21
  - Wind speed less than 4.5 m/s
@@ -53,6 +57,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 3. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
 4. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
 5. Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
+
 ![image](https://github.com/alexis4441/python-api-challenge/assets/156952462/c4aeb843-e935-42fc-9410-23b59dd85eca)
 
 
